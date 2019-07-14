@@ -16,6 +16,13 @@ Node: 11.10.1
 NPM: 6.10.0  
 Yarn: 1.16.0
 
+## Installation
+```bash
+yarn install
+npm i jetifier
+npx jetify
+```
+
 ## Prerequisites for iOS
 You need you have the latest XCode installed on your machine. Also, in order to run the app on simulators, please install at least one (`iPhone X`) simulator.
 
@@ -32,12 +39,6 @@ Make sure that you have `Pods` directory created after this step
 * [Install JDK](https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html)
 * `cd android && chmod +x gradlew`
 
-## Installation
-```bash
-yarn install
-npm i jetifier
-npx jetify
-```
 
 ## Run in release mode
 (Standalone apps will be installed so that you could run them without connecting to your dev machine and metro bundler)

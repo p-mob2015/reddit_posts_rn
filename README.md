@@ -12,11 +12,12 @@ npm install -g react-native-cli
 ## Considerations ##
 In order to avoid any potential build errors, please upgrade your node, yarn and npm to the latest versions.
 
-Node: 11.10.1
-NPM: 6.10.0
+Node: 11.10.1  
+NPM: 6.10.0  
 Yarn: 1.16.0
 
 ## Prerequisites for iOS
+You need you have the latest XCode installed on your machine. Also, in order to run the app on simulators, please install at least one (`iPhone X`) simulator.
 
 ```bash
 gem install cocoapods
@@ -24,6 +25,7 @@ gem install cocoapods
 cd ios
 pod setup
 ```
+Make sure that you have `Pods` directory created after this step
 
 ## Prerequisites for Android
 
@@ -41,10 +43,10 @@ npx jetify
 (Standalone apps will be installed so that you could run them without connecting to your dev machine and metro bundler)
 
 ### iOS simulator
-`react-native run-ios --configuration Release --device <your device name>`
+`react-native run-ios --configuration Release`
 
 ### iOS device
-`react-native run-ios --device <your device name>`
+`react-native run-ios --configuration Release --device <your device name>`
 
 ### Android device
 `react-native run-android --variant=release`

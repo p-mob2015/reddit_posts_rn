@@ -3,13 +3,15 @@
 ### List screen
 - Used FlatList component for performant list rendering experience
 - Used Infinite scrolling behavior as there are huge number of posts to fetch from
-  note: `afterPage` property of the API endpoint indicates the next set of posts to fetch
+  note: `afterPage` property of the API endpoint indicates the next set of posts to fetch  
+
 ![List screen](./screenshots/list_screen.png)
 
 ### Post screen
 - Used WebView as instructed
 - Made backward navigation possible
-- Put post title as the navBar title
+- Put post title as the navBar title  
+
 ![Post screen](./screenshots/post_screen.png)
 
 ## Technologies used
